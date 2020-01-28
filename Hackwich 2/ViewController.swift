@@ -20,6 +20,8 @@ class ViewController: UIViewController {
 
         
     }
-
+    @IBAction func pressedtwotimes(_ sender: Any) { print (" hello world 2x ")
+    }
+    
 }
 

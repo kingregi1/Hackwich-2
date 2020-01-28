@@ -26,9 +26,12 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgy-7t-I0O">
-                                <rect key="frame" x="74" y="454" width="80" height="30"/>
+                                <rect key="frame" x="178" y="478" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Side Button"/>
+                                <connections>
+                                    <action selector="pressedtwotimes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qTp-h7-n6k"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
